@@ -3,7 +3,7 @@ function getHumanChoice(){
     let humanChoice = prompt("Rock, Paper, Scissors?");
     let validChoices =["rock", "paper", "scissors"];
     while (!validChoices.includes(humanChoice.toLowerCase())){
-        humanChoice = prompt("Rock, Paper, Scissors?");
+        humanChoice = prompt("Please enter a valid choice... Rock, Paper, Scissors?");
     }
     return humanChoice.toLowerCase();
 } 
