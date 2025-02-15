@@ -37,7 +37,7 @@ function compareFinalScores(humanScore, computerScore){
 
 function playRound(humanChoice, computerChoice){
     if (humanChoice === "paper" && computerChoice === "Rock" || humanChoice === "rock" && computerChoice === "Scissors" || humanChoice === "scissors" && computerChoice === "Paper" ){
-        console.log("You win!" + humanChoice + " beats " + computerChoice + "!")
+        console.log("You win! " + humanChoice + " beats " + computerChoice + "!")
         return 0; //Human wins = 0
     } else if (humanChoice === computerChoice.toLowerCase()){
         console.log("It's a tie!");
