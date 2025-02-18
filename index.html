@@ -3,9 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <script src="./js/javascript.js" defer></script>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
 
     <body>
-        <script src="./js/javascript.js"></script>
+        <div class="container">
+            <button class="btnRock">Rock</button>
+            <button class="btnPaper">Paper</button>
+            <button class="btnScissors">Scissors</button>
+            <div class="scoreContainer">
+                <div class="lblHumanScore">Human:</div>
+                <div class="humanScore">0</div>
+                <div class="lblComputerScore">Computer:</div>
+                <div class="computerScore">0</div>
+            </div>
+            <div class="roundWinner"></div>
+            <div class="gameWinner"></div>
+        </div>
     </body>
 </html>
